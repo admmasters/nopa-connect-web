@@ -1,4 +1,4 @@
-# nopa-connect
+# Zopa's React JS technical test.
 
 ## Description
 This is a biolerplate for Zopa's React JS technical test.
