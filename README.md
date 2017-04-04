@@ -11,9 +11,11 @@ Screens: https://github.com/ishabo/nopa-connect/wiki/Screens
 
 Style guide: https://github.com/ishabo/nopa-connect/wiki/Style-guide
 
-## What you'll find in this branch?
+## What's included?
 This boilerplate contains a skeleton routes and the needed images for the test.
-There is basic configuration for react, react-routes, express, react-redux, sass-loader, jest and other libs.
+There is basic configuration for react, react-routes, express, react-redux, sass-loader, jest and other libs. (check package.json)
+
+There's also a simple structure for client, server and static code. The majority of the work you need to do is under src/app/client and src/app/static/stylesheets.
 
 Feel free to use the current structure or change it as you wish. 
 
