@@ -11,7 +11,7 @@
     "test": "jest",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cory House",
+  "author": "Issa Shabo <issa.shabo@zopa.com>",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
