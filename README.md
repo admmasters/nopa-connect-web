@@ -1,9 +1,13 @@
 # nopa-connect
 
 ## Description
-As part of our risk scoring at Zopa, we want to invite potential borrowers to share some additional information from their bank account. The screens in the file are a design for a process of connecting a bank account from several major banks to their Zopa Account.
+Please refer to the wiki:
 
-We have provided examples of what this process looks like on mobile but would like for you to create a responsive web version of the process. Use your best interpretation such that it would render well on desktop, tablet and mobile. Information on fonts, colours and assets are provided but exact specifications are not – we want to see how you make this work.
+Description: https://github.com/ishabo/nopa-connect/wiki
+
+Screens: https://github.com/ishabo/nopa-connect/wiki/Screens
+
+Style guide: https://github.com/ishabo/nopa-connect/wiki/Style-guide
 
 ## What you'll find in this branch?
 This is a boilerplate with skeleton routes and the needed images.
