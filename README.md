@@ -1,7 +1,9 @@
 # nopa-connect
 
 ## Description
-Please refer to the wiki:
+This is a biolerplate for Zopa's React JS technical test.
+
+Please refer to the wiki pages for the details:
 
 Description: https://github.com/ishabo/nopa-connect/wiki
 
@@ -10,10 +12,12 @@ Screens: https://github.com/ishabo/nopa-connect/wiki/Screens
 Style guide: https://github.com/ishabo/nopa-connect/wiki/Style-guide
 
 ## What you'll find in this branch?
-This is a boilerplate with skeleton routes and the needed images.
+This boilerplate contains a skeleton routes and the needed images for the test.
 There is basic configuration for react, react-routes, express, react-redux, sass-loader, jest and other libs.
 
 Feel free to use the current structure or change it as you wish. 
+
+## How to run?
 
 Once you fork this branch and git clone it, all you need to do is run:
 
