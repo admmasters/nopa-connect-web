@@ -10,9 +10,9 @@ export default function Routes(store) {
       <Route path="choose-bank" title="Choose Bank" component={ChooseBankPage} />
       <Route path="login" title="Login to Bank" component={LoginPage} />
       <Route path="statement" title="Bank Statement" component={StatementPage} />
-      <Route path='505' error='505' component={ErrorPage} />
+      <Route path="505" error="505" component={ErrorPage} />
       {/* path="*" Should stay at the bottom */}
-      <Route path='*' error='404' component={ErrorPage} />
+      <Route path="*" error="404" component={ErrorPage} />
     </Route>
   );
 }

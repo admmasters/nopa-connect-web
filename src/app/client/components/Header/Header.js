@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Button from '../Button/Button';
+import * as Paths from '../../constants/paths';
 
 const Header = (props) => {
   return (
-    <div></div>
-  )
-}
+    <div className="header">
+      <div className="logo">
 
-export default Header
+      </div>
+      <div className="signin">
+        <Button to={Paths.LOGIN_BANK}>Log In</Button>
+      </div>
+    </div>
+  )
+};
+
+export default Header;
