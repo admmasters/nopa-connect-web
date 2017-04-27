@@ -1,7 +1,7 @@
 # Zopa's React JS technical test.
 
 ## Description
-This is a biolerplate for Zopa's React JS technical test.
+This is a boilerplate for Zopa's React JS technical test.
 
 Please refer to the wiki pages for the details:
 
