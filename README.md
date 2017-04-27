@@ -29,14 +29,29 @@ npm start -s
 
 This will install node_modules the first time, and then it will just start the server.
 
-This will open 
+Then the following URL will open automatically in your browser:
 ```
 http://localhost:3000/ 
 ```
-Which will load the home page of the skeleton React app.
 
-There's also an express route that has dummy data that you can use to fetch transactions for the Statement page:
-```
-http://localhost:3000/api/transactions
-```
+You will notice that there are three screens out of the required four already built. However, the code isn't perfect, and main functionality is missing like bank selection and form validation and tests broken.
+
+## Your task
+
+1. Make the pages responsive according to the screenshots that we provided
+2. Implement a bank selection that persists to the login screen
+3. Implement sensible form validation
+4. Build the transactions screen and use the `http://localhost:3000/api/transactions`
+5. Enhance and refactor the code whereever spot a need
+6. Fix and expand the tests
+
+## Expectation
+
+While we are looking for a fullstack developer, we understand that devs are on a frontend-architecture-backend spectrum. Thus, you have the freedom to shine whereever you think you find yourself, but of course, perfection in all areas puts a smile on the face.
+
+So consider the following:
+- We are looking for best practices used, a demonstration of an understanding of the whole technology stack that is used.
+- Spend as much time as you can.
+- Add your unique touch.
+- Do not hestiate to impress us visually.
 
