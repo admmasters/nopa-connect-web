@@ -27,11 +27,13 @@ export default {
       test: /\.scss$/,
       use: [{
         loader: "style-loader"
-      }, {
+      },
+      {
         loader: "css-loader", options: {
           sourceMap: true
         }
-      }, {
+      },
+      {
         loader: "sass-loader", options: {
           sourceMap: true
         }
@@ -44,7 +46,8 @@ export default {
       {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'},
       {test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000'},
       {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},
-      {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'}
+      {test: /\.png$/, loader: "url-loader?mimetype=image/png"},
+      {test: /\.svg$/, loader: "url-loader?mimetype=image/svg+xml"}
     ]
   }
 };
