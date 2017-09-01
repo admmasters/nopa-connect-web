@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Starter kit for React and Redux Pluralsight course by Cory House",
   "scripts": {
-    "prestart": "if [ ! -d 'node_modules' ]; then npm install; fi && babel-node src/app/server/bootstrap.js",
+    "prestart": "babel-node src/app/server/bootstrap.js",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
     "open:src": "babel-node src/app/server/index.js",
     "lint": "node_modules/.bin/esw webpack.config.* app",
