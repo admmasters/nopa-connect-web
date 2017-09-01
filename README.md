@@ -24,7 +24,14 @@ Feel free to use the current structure or change it as you wish.
 
 Once you fork this branch and git clone it, all you need to do is run:
 
+### Unix:
 ```sh
+npm install && npm start -s
+```
+
+### Windows:
+```sh
+npm install
 npm start -s
 ```
 
