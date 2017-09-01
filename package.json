@@ -1,6 +1,6 @@
 {
   "name": "nopa-connect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starter kit for React and Redux Pluralsight course by Cory House",
   "scripts": {
     "prestart": "babel-node src/app/server/bootstrap.js",
