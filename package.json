@@ -14,7 +14,7 @@
   "author": "Issa Shabo <issa.shabo@zopa.com>",
   "dependencies": {
     "babel-polyfill": "6.8.0",
-    "bootstrap": "3.3.6",
+    "bootstrap": "3.4.0",
     "url-loader": "^0.5.8",
     "css-loader": "^0.27.3",
     "history": "^4.6.1",
