@@ -1,6 +1,8 @@
 
 # Zopa's React JS technical test.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/admmasters/nopa-connect-web.svg)](https://greenkeeper.io/)
+
 ## Description
 This is a boilerplate for Zopa's React JS technical test.
 
