@@ -9,7 +9,9 @@
     "lint": "node_modules/.bin/esw webpack.config.* app",
     "lint:watch": "npm run lint -- --watch",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Issa Shabo <issa.shabo@zopa.com>",
   "dependencies": {
@@ -18,7 +20,7 @@
     "url-loader": "^0.5.8",
     "css-loader": "^0.27.3",
     "history": "^4.6.1",
-    "jquery": "2.2.3",
+    "jquery": "3.5.0",
     "keycode": "^2.1.8",
     "react": "15.4.2",
     "react-dom": "15.4.2",
@@ -26,7 +28,8 @@
     "react-router": "^2.4.0",
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
-    "style-loader": "^0.14.1"
+    "style-loader": "^0.14.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-cli": "6.8.0",
@@ -65,5 +68,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ishabo/nopa-connect"
-  }
+  },
+  "snyk": true
 }
